@@ -138,6 +138,22 @@ ul li a:hover {
 #social a:hover {
     padding: 16px;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(61, 59, 59, 0.8)
+    box-shadow: 0 0 20px rgba(61, 59, 59, 0.8);
 }
 
+@media (min-width: 700px) {
+
+    :root { 
+        --bg-url: url(./assets/bg-desktop.jpg)
+    }
+
+    .light {
+
+        --bg-url: url(./assets/bg-desktop-light.jpg)
+
+    }
+
+
+
+
+}
